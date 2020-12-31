@@ -33,7 +33,7 @@ const PricesFilter: React.FC<TPricesFilterProps> = (props) => {
             props.PricesDropDownDisplayed && <div className="PricesFilterDropDownContainer">
 
                 <div style={{fontSize: "1.115rem",paddingLeft:"25%",paddingTop:"1.12rem"}}>
-                    from {props.values[0]}&#8399; to {props.values[1]}&#8399;
+                    from {props.values[0]}&#36; to {props.values[1]}&#36;
                 </div>
 
                 <div style={{paddingTop: "1.5rem"}} className="Slider">

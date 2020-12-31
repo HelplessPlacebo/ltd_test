@@ -22,7 +22,7 @@ const ProductsPage: React.FC<TProductsPageProps> = (props) => {
         <Grid container direction="row" justify="center">
 
             <Grid item style={{paddingTop: "10%"}} className="FiltersContainer">
-                <Filters FilterProducts={props.FilterProducts} defaultPriceValues={[0,10000]}/>
+                <Filters FilterProducts={props.FilterProducts} defaultPriceValues={[0,2000]}/>
             </Grid>
 
             <Grid style={{maxWidth: "90rem"}} item>

@@ -28,13 +28,13 @@ const ProductCard: React.FC<TProductCardInfoProps> = (props) => {
             <Grid item>
                 {
                     props.Product.isAvailable
-                        ? <div style={{color: "#26f540"}}> В наличии</div>
-                        : <div style={{color: "#4f4f4f"}}> Нет в наличии</div>
+                        ? <div style={{color: "#26f540"}}> available </div>
+                        : <div style={{color: "#4f4f4f"}}> not available</div>
                 }
             </Grid>
 
             <Grid item style={{color: "#4d4d4d", paddingTop: "0.5rem"}}>
-                {props.Product.price}&#8399;
+                {props.Product.price}&#36;
             </Grid>
         </Grid>
     </>

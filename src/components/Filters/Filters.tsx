@@ -38,8 +38,8 @@ const Filters: React.FC<TFiltersProps> = (props) => {
     return <div className="FiltersContainer">
         <PricesFilter PricesDropDownDisplayed={PricesDropDownDisplayed}
                       PricesDropDownDisplayedToggle={PricesDropDownDisplayedToggle}
-                      defaultValues={props.defaultPriceValues ? props.defaultPriceValues : [0, 10000]}
-                      maxValue={10000} minValue={0} maxWidth={500}
+                      defaultValues={props.defaultPriceValues ? props.defaultPriceValues : [0, 2000]}
+                      maxValue={2000} minValue={0} maxWidth={500}
                       values={sliderValues} SliderHandleChange={SliderHandleChange}/>
 
         <BrandsFilter CategoriesDropDownDisplayed={BrandsDropDownDisplayed}

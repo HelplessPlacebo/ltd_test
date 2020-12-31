@@ -18,19 +18,19 @@ const Product: React.FC<TProductProps> = (props) => {
                 <Grid style={{paddingLeft: "1rem"}} item>
                     <Grid style={{fontSize: "1.225rem"}} container direction="column" alignItems="flex-start">
                         <Grid item>
-                            Бренд: {props.Product?.brand}
+                            brand : {props.Product?.brand}
                         </Grid>
 
                         <Grid style={{paddingTop: "0.5rem"}} item>
-                            Категоия: {props.Product?.category}
+                            category: {props.Product?.category}
                         </Grid>
 
                         <Grid style={{paddingTop: "0.5rem"}} item>
-                            Цвет: {props.Product?.color}
+                            color : {props.Product?.color}
                         </Grid>
 
                         <Grid style={{paddingTop: "0.5rem"}} item>
-                            Доступные размер: {props.Product?.availableSizes.map(el => el + " ")}
+                            sizes : {props.Product?.availableSizes.map(el => el + " ")}
                         </Grid>
 
                     </Grid>
@@ -40,7 +40,7 @@ const Product: React.FC<TProductProps> = (props) => {
         <Grid style={{maxWidth : "50rem", paddingTop:"1.5rem",fontSize:"1.275rem",paddingLeft:"1rem"}} item>
             <Grid  container>
                 <Grid item>
-                    Описание :
+                    description :
                 </Grid>
                 <Grid style={{paddingTop:"1.5rem"}} item>
                     {props.Product?.description}

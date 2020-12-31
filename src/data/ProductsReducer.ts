@@ -29,272 +29,278 @@ export type TProducts = Array<TProduct>
 let DefaultState = {
     Products: [
         {
-            name: "КРОСОВКИ NIKE AIR FORCE 1 LOW",
-            price: 4990,
+            name: "NIKE AIR FORCE 1 LOW",
+            price: 100,
             imgUrl: "https://outmaxshop.ru/components/com_jshopping/files/img_products/19765/nike-air-force-1-low-19765-1.jpg",
             article: 41288428,
             isAvailable: true,
-            description: "Кроссовки Nike Air Force 1 Low – современное переосмысление кроссовок, " +
-                "которые были презентованы в качестве баскетбольной экипировки в 1982 году. Профиль " +
-                "обуви не стесняет движений голеностопа, при этом поддерживая его. Для обеспечения вентиляции " +
-                "в верхней части кроссовок, изготовленной из кожи, имеется перфорация. Для амортизации " +
-                "стопы в подошве имеется вставка «Nike Air», которая «прописалась» в этих" +
-                " кроссовках еще во время первой презентации в 1982 году. Рисунок протектора," +
-                " состоящий из концентрических кругов, создает «пятна контакта», " +
-                "что обеспечивает надежное сцепление с поверхностями.",
+            description: "The Nike Air Force 1 is one of the brand's most popular shoes.  The upper is made of artificial " +
+                "leather, which perfectly releases excess heat.  The lacing system fits neatly into the image of the model. " +
+                " Inside the model, there are soft inserts that provide additional comfort while walking.  The midsole " +
+                "material is responsible for cushioning.  It is manufactured using Air technology.  It allows you to pay off any load. " +
+                " Traction is provided by a unique rubber outsole pattern.  The model will perfectly highlight any look.",
             id: 1,
             brand: "Nike",
-            color: "блеый",
+            color: "white",
             category: "footwear",
             availableSizes: [36, 37, 38, 39, 40]
         },
         {
-            name: "КРОССОВКИ ADIDAS OZWEEGO ",
-            price: 5090,
+            name: "ADIDAS OZWEEGO",
+            price: 95,
             imgUrl: "https://outmaxshop.ru/components/com_jshopping/files/img_products/20932/adidas-ozweego-20932-1.jpg",
             article: 3213421,
             isAvailable: true,
-            description: "Кроссовки Adidas Ozweego отлично подходят для занятий спортом. Верх модели обладает" +
-                " отличными дышащими свойствами. Он изготовлен из искусственной кожи и текстиля. Система шнуровки" +
-                " лаконично вписывается в образ модели. Внутри модели имеются мягкие вставки, которые обеспечивают " +
-                "дополнительный комфорт во время носки. Стелька обладает дышащими свойствами. Подошва имеет необычное " +
-                "рельефное строение. Промежуточный материал изготовлен с использованием новых технологий. " +
-                "Поэтому обеспечивается погашение любых нагрузок. Резиновая подметка отлично взаимодействует с" +
-                " разными поверхностями. По периметру модели имеются фирменные декорирующие элементы бренда.\n",
+            description: "ADIDAS OZWEEGO combine futurism and sporty style at the milestone of the retros.\n" +
+                "Such a tandem creates an ambiguous feeling when looking at this model,\n" +
+                "however, does not leave anyone indifferent.  The body is made from a combination\n" +
+                "mesh material and special synthetic material,\n" +
+                "forming smooth shapes.\n" +
+                "\n" +
+                "Adiprene + cushioning system combined with midsole\n" +
+                "made of EVA provide a soft step, and also protects the foot from too\n" +
+                "powerful hits on the ground.  This property allows you to use\n" +
+                "this model is both basic and sports.",
             id: 2,
             brand: "Adidas",
-            color: "белый",
+            color: "white",
             category: "footwear",
             availableSizes: [36, 37, 38, 39, 40]
         },
         {
-            name: "ФУТБОЛКА OFF-WHITE ",
-            price: 1540,
+            name: "T-shirt OFF-WHITE",
+            price: 40,
             imgUrl: "https://outmaxshop.ru/components/com_jshopping/files/img_products/19630/off-white-19630-1.jpg",
             article: 535242,
             isAvailable: true,
-            description: "Минималистичная футболка Off-White в белом цвете. Приталенное строение и округлая горловина в сочетании " +
-                "с манжетами дает возможность использовать её как угодно." +
-                " Материал модели отлично контактирует с кожей, обладает отличной теплопроводностью, швы не" +
-                " вызывают дискомфорта. Перед лишён декора, а на спине располагается цветной принт, который " +
-                "является основным дизайнерским элементом. При долгом взаимодействием с солнцем не выгорает.\n",
+            description: "Stylish T-shirt from the youth brand Off-White made of eco-friendly material.  Due to the fitted cut," +
+                " it can be used for walking and playing sports.  From the point of view of style, the designers approached in a new way. " +
+                " They placed a large brand logo on the back for a unique look.  There are cuffs for ease of use. " +
+                " After prolonged wear, the state of the print changes.",
             id: 3,
             brand: "OFF-WHITE",
-            color: "белый",
+            color: "white",
             category: "T-shirt",
             availableSizes: [46, 50, 52, 54]
         },
         {
-            name: "ФУТБОЛКА AAPE ",
-            price: 1320,
+            name: "T-shirt AAPE",
+            price: 35,
             imgUrl: "https://outmaxshop.ru/components/com_jshopping/files/img_products/19627/aape-19627-1.jpg",
             article: 312454125,
             isAvailable: true,
-            description: "Модная футболка от бренда Aape выполнена на 100% из хлопка. Это позволяет носить её на прогулках, фитнесе," +
-                " тренировках без дискомфорта. Модель приталенная с коротким рукавом. На груди расположен большой фирменный " +
-                "принт бренда в контрастном цвете. После нескольких стирок цвет и состояние принта не изменяется." +
-                " Также при долгом нахождении на солнце не выгорает.",
+            description: "The all-purpose T-shirt from Aape is made from 100% cotton.  The model is fitted, has a round neckline" +
+                " and short sleeves.  The comfortable fit provides maximum comfort during use.  The T-shirt is decorated" +
+                " with a large print in the chest area.  There is also an original print on the neck area.  It is made in" +
+                " a contrasting color.  The color and state do not change over time.  Perfect for both walking and fitness.",
             id: 4,
             brand: "AAPE",
-            color: "белый",
+            color: "white",
             category: "T-shirt",
             availableSizes: [46, 50, 52, 54]
         },
         {
-            name: "ХУДИ NASA ",
-            price: 2412,
+            name: "khudi NASA",
+            price: 78,
             imgUrl: "https://outmaxshop.ru/components/com_jshopping/files/img_products/20540/nasa-20540-1.jpg",
             article: 312454125,
             isAvailable: true,
-            description: "Стильный худи Nasa черного цвета выполнен из трикотажной ткани. Модель является трендом нынешнего сезона" +
-                " и оснащена манжетами на рукавах и резинкой на поясе. У изделия классический несъемный капюшон и карман-кенгуру." +
-                " Отличный трикотаж обеспечит комфортный тепловой режим на каждый день. Идеально подойдет для прогулок, пробежек." +
-                " Изделие украшено контрастными принтами логотипа бренда: белым на груди, эмблемой-нашивкой – на рукаве. " +
-                "Декор толстовки продолжают шнурки регулировки капюшона в тон и манжеты с плотной резинкой на поясе.",
+            description: "Stylish black NASA hoodie sewn in a semi-loose silhouette.  Jersey\n" +
+                "on the three-thread looks elegant and will suit young people who understand a lot about fashion.\n" +
+                "The product will be a good help on cool evenings during the demi-season.\n" +
+                "It can also be worn under a dark bomber jacket.\n" +
+                "\n" +
+                "The product has a drawstring-adjustable hood, cuffs and a classic pass-through pocket.\n" +
+                "The model is decorated with the US national flag on the left sleeve.  Chest print\n" +
+                "in the form of the NASA emblem is the dominant design of the model.",
             id: 5,
             brand: "NASA",
-            color: "черный",
+            color: "black",
             category: "khudi",
             availableSizes: [46, 50, 52, 54]
         },
         {
-            name: "КРОСОВКИ NIKE AIR FORCE 1 LOW",
-            price: 4990,
-            imgUrl: "https://images.ru.prom.st/794209655_w640_h640_nike-krossovki-nike.jpg",
+            name: "NIKE AIR FORCE 1 LOW",
+            price: 85,
+            imgUrl: "https://outmaxshop.ru/components/com_jshopping/files/img_products/18837/nike-air-force-1-18837-1.jpg",
             article: 41288428,
             isAvailable: true,
-            description: "Кроссовки Nike Air Force 1 Low – современное переосмысление кроссовок, " +
-                "которые были презентованы в качестве баскетбольной экипировки в 1982 году. Профиль " +
-                "обуви не стесняет движений голеностопа, при этом поддерживая его. Для обеспечения вентиляции " +
-                "в верхней части кроссовок, изготовленной из кожи, имеется перфорация. Для амортизации " +
-                "стопы в подошве имеется вставка «Nike Air», которая «прописалась» в этих" +
-                " кроссовках еще во время первой презентации в 1982 году. Рисунок протектора," +
-                " состоящий из концентрических кругов, создает «пятна контакта», " +
-                "что обеспечивает надежное сцепление с поверхностями.",
+            description: "The Nike Air Force 1 is one of the brand's most popular shoes.  The upper is made of artificial " +
+                "leather, which perfectly releases excess heat.  The lacing system fits neatly into the image of the model. " +
+                " Inside the model, there are soft inserts that provide additional comfort while walking.  The midsole " +
+                "material is responsible for cushioning.  It is manufactured using Air technology.  It allows you to pay off any load. " +
+                " Traction is provided by a unique rubber outsole pattern.  The model will perfectly highlight any look.",
             id: 6,
             brand: "Nike",
-            color: "блеый",
+            color: "white",
             category: "footwear",
             availableSizes: [36, 37, 38, 39, 40]
         },
         {
-            name: "КРОССОВКИ ADIDAS OZWEEGO ",
-            price: 5090,
-            imgUrl: "https://images.ru.prom.st/798576238_w640_h640_adidas-krossovki-adidas.jpg",
+            name: "ADIDAS OZWEEGO",
+            price: 95,
+            imgUrl: "https://outmaxshop.ru/components/com_jshopping/files/img_products/17252/adidas-ozweego-17252-1.jpg",
             article: 3213421,
             isAvailable: true,
-            description: "Кроссовки Adidas Ozweego отлично подходят для занятий спортом. Верх модели обладает" +
-                " отличными дышащими свойствами. Он изготовлен из искусственной кожи и текстиля. Система шнуровки" +
-                " лаконично вписывается в образ модели. Внутри модели имеются мягкие вставки, которые обеспечивают " +
-                "дополнительный комфорт во время носки. Стелька обладает дышащими свойствами. Подошва имеет необычное " +
-                "рельефное строение. Промежуточный материал изготовлен с использованием новых технологий. " +
-                "Поэтому обеспечивается погашение любых нагрузок. Резиновая подметка отлично взаимодействует с" +
-                " разными поверхностями. По периметру модели имеются фирменные декорирующие элементы бренда.\n",
+            description: "ADIDAS OZWEEGO combine futurism and sporty style at the milestone of the retros.\n" +
+                "Such a tandem creates an ambiguous feeling when looking at this model,\n" +
+                "however, does not leave anyone indifferent.  The body is made from a combination\n" +
+                "mesh material and special synthetic material,\n" +
+                "forming smooth shapes.\n" +
+                "\n" +
+                "Adiprene + cushioning system combined with midsole\n" +
+                "made of EVA provide a soft step, and also protects the foot from too\n" +
+                "powerful hits on the ground.  This property allows you to use\n" +
+                "this model is both basic and sports.",
             id: 7,
             brand: "Adidas",
-            color: "белый",
+            color: "white",
             category: "footwear",
             availableSizes: [36, 37, 38, 39, 40]
         },
         {
-            name: "ФУТБОЛКА OFF-WHITE ",
-            price: 1540,
-            imgUrl: "https://images.ru.prom.st/714696621_w640_h640_futbolka-off-white-belaya.jpg",
+            name: "T-shirt OFF-WHITE",
+            price: 40,
+            imgUrl: "https://outmaxshop.ru/components/com_jshopping/files/img_products/15223/off-white-15223-1.jpg",
             article: 535242,
             isAvailable: true,
-            description: "Минималистичная футболка Off-White в белом цвете. Приталенное строение и округлая горловина в сочетании " +
-                "с манжетами дает возможность использовать её как угодно." +
-                " Материал модели отлично контактирует с кожей, обладает отличной теплопроводностью, швы не" +
-                " вызывают дискомфорта. Перед лишён декора, а на спине располагается цветной принт, который " +
-                "является основным дизайнерским элементом. При долгом взаимодействием с солнцем не выгорает.\n",
+            description: "Stylish T-shirt from the youth brand Off-White made of eco-friendly material.  Due to the fitted cut," +
+                " it can be used for walking and playing sports.  From the point of view of style, the designers approached in a new way. " +
+                " They placed a large brand logo on the back for a unique look.  There are cuffs for ease of use. " +
+                " After prolonged wear, the state of the print changes.",
             id: 8,
             brand: "OFF-WHITE",
-            color: "белый",
+            color: "white",
             category: "T-shirt",
             availableSizes: [46, 50, 52, 54]
         },
         {
-            name: "ФУТБОЛКА AAPE ",
-            price: 1320,
-            imgUrl: "https://хасл.рф/components/com_jshopping/files/img_products/7862/aape-7862-1.jpg",
+            name: "T-shirt AAPE",
+            price: 35,
+            imgUrl: "https://outmaxshop.ru/components/com_jshopping/files/img_products/19626/aape-19626-1.jpg",
             article: 312454125,
             isAvailable: true,
-            description: "Модная футболка от бренда Aape выполнена на 100% из хлопка. Это позволяет носить её на прогулках, фитнесе," +
-                " тренировках без дискомфорта. Модель приталенная с коротким рукавом. На груди расположен большой фирменный " +
-                "принт бренда в контрастном цвете. После нескольких стирок цвет и состояние принта не изменяется." +
-                " Также при долгом нахождении на солнце не выгорает.",
+            description: "The all-purpose T-shirt from Aape is made from 100% cotton.  The model is fitted, has a round neckline" +
+                " and short sleeves.  The comfortable fit provides maximum comfort during use.  The T-shirt is decorated" +
+                " with a large print in the chest area.  There is also an original print on the neck area.  It is made in" +
+                " a contrasting color.  The color and state do not change over time.  Perfect for both walking and fitness.",
             id: 9,
             brand: "AAPE",
-            color: "белый",
+            color: "white",
             category: "T-shirt",
             availableSizes: [46, 50, 52, 54]
         },
         {
-            name: "ХУДИ NASA ",
-            price: 2412,
-            imgUrl: "https://printbar.ru/upload/images/b7/b7226.jpg",
+            name: "khudi NASA",
+            price: 71,
+            imgUrl: "https://outmaxshop.ru/components/com_jshopping/files/img_products/17884/nasa-17884-1.jpg",
             article: 312454125,
             isAvailable: true,
-            description: "Стильный худи Nasa черного цвета выполнен из трикотажной ткани. Модель является трендом нынешнего сезона" +
-                " и оснащена манжетами на рукавах и резинкой на поясе. У изделия классический несъемный капюшон и карман-кенгуру." +
-                " Отличный трикотаж обеспечит комфортный тепловой режим на каждый день. Идеально подойдет для прогулок, пробежек." +
-                " Изделие украшено контрастными принтами логотипа бренда: белым на груди, эмблемой-нашивкой – на рукаве. " +
-                "Декор толстовки продолжают шнурки регулировки капюшона в тон и манжеты с плотной резинкой на поясе.",
+            description: "Stylish black NASA hoodie sewn in a semi-loose silhouette.  Jersey\n" +
+                "on the three-thread looks elegant and will suit young people who understand a lot about fashion.\n" +
+                "The product will be a good help on cool evenings during the demi-season.\n" +
+                "It can also be worn under a dark bomber jacket.\n" +
+                "\n" +
+                "The product has a drawstring-adjustable hood, cuffs and a classic pass-through pocket.\n" +
+                "The model is decorated with the US national flag on the left sleeve.  Chest print\n" +
+                "in the form of the NASA emblem is the dominant design of the model.",
             id: 10,
             brand: "NASA",
-            color: "черный",
+            color: "black",
             category: "khudi",
             availableSizes: [46, 50, 52, 54]
         },
         {
-            name: "КРОСОВКИ NIKE AIR FORCE 1 LOW",
-            price: 4990,
-            imgUrl: "https://хасл.рф/components/com_jshopping/files/img_products/5832/nike-air-force-1-low-5832-1.jpg",
+            name: "NIKE AIR FORCE 1 LOW",
+            price: 80,
+            imgUrl: "https://outmaxshop.ru/components/com_jshopping/files/img_products/19764/nike-air-force-1-low-19764-1.jpg",
             article: 41288428,
             isAvailable: true,
-            description: "Кроссовки Nike Air Force 1 Low – современное переосмысление кроссовок, " +
-                "которые были презентованы в качестве баскетбольной экипировки в 1982 году. Профиль " +
-                "обуви не стесняет движений голеностопа, при этом поддерживая его. Для обеспечения вентиляции " +
-                "в верхней части кроссовок, изготовленной из кожи, имеется перфорация. Для амортизации " +
-                "стопы в подошве имеется вставка «Nike Air», которая «прописалась» в этих" +
-                " кроссовках еще во время первой презентации в 1982 году. Рисунок протектора," +
-                " состоящий из концентрических кругов, создает «пятна контакта», " +
-                "что обеспечивает надежное сцепление с поверхностями.",
+            description: "The Nike Air Force 1 is one of the brand's most popular shoes.  The upper is made of artificial " +
+                "leather, which perfectly releases excess heat.  The lacing system fits neatly into the image of the model. " +
+                " Inside the model, there are soft inserts that provide additional comfort while walking.  The midsole " +
+                "material is responsible for cushioning.  It is manufactured using Air technology.  It allows you to pay off any load. " +
+                " Traction is provided by a unique rubber outsole pattern.  The model will perfectly highlight any look.",
             id: 11,
             brand: "Nike",
-            color: "блеый",
+            color: "white",
             category: "footwear",
             availableSizes: [36, 37, 38, 39, 40]
         },
         {
-            name: "КРОССОВКИ ADIDAS OZWEEGO ",
-            price: 5090,
-            imgUrl: "https://greezzlee.ru/wp-content/uploads/2019/03/Adidas-ozweego-2-1-1.jpg",
+            name: "ADIDAS OZWEEGO",
+            price: 88,
+            imgUrl: "https://outmaxshop.ru/components/com_jshopping/files/img_products/20932/adidas-ozweego-20932-1.jpg",
             article: 3213421,
             isAvailable: true,
-            description: "Кроссовки Adidas Ozweego отлично подходят для занятий спортом. Верх модели обладает" +
-                " отличными дышащими свойствами. Он изготовлен из искусственной кожи и текстиля. Система шнуровки" +
-                " лаконично вписывается в образ модели. Внутри модели имеются мягкие вставки, которые обеспечивают " +
-                "дополнительный комфорт во время носки. Стелька обладает дышащими свойствами. Подошва имеет необычное " +
-                "рельефное строение. Промежуточный материал изготовлен с использованием новых технологий. " +
-                "Поэтому обеспечивается погашение любых нагрузок. Резиновая подметка отлично взаимодействует с" +
-                " разными поверхностями. По периметру модели имеются фирменные декорирующие элементы бренда.\n",
+            description: "ADIDAS OZWEEGO combine futurism and sporty style at the milestone of the retros.\n" +
+                "Such a tandem creates an ambiguous feeling when looking at this model,\n" +
+                "however, does not leave anyone indifferent.  The body is made from a combination\n" +
+                "mesh material and special synthetic material,\n" +
+                "forming smooth shapes.\n" +
+                "\n" +
+                "Adiprene + cushioning system combined with midsole\n" +
+                "made of EVA provide a soft step, and also protects the foot from too\n" +
+                "powerful hits on the ground.  This property allows you to use\n" +
+                "this model is both basic and sports.",
             id: 12,
             brand: "Adidas",
-            color: "белый",
+            color: "white",
             category: "footwear",
             availableSizes: [36, 37, 38, 39, 40]
         },
         {
-            name: "ФУТБОЛКА OFF-WHITE ",
-            price: 1540,
-            imgUrl: "https://images.ru.prom.st/663506656_w640_h640_off-white-futbolka.jpg",
+            name: "T-shirt OFF-WHITE",
+            price: 40,
+            imgUrl: "https://outmaxshop.ru/components/com_jshopping/files/img_products/19630/off-white-19630-1.jpg",
             article: 535242,
             isAvailable: true,
-            description: "Минималистичная футболка Off-White в белом цвете. Приталенное строение и округлая горловина в сочетании " +
-                "с манжетами дает возможность использовать её как угодно." +
-                " Материал модели отлично контактирует с кожей, обладает отличной теплопроводностью, швы не" +
-                " вызывают дискомфорта. Перед лишён декора, а на спине располагается цветной принт, который " +
-                "является основным дизайнерским элементом. При долгом взаимодействием с солнцем не выгорает.\n",
+            description: "Stylish T-shirt from the youth brand Off-White made of eco-friendly material.  Due to the fitted cut," +
+                " it can be used for walking and playing sports.  From the point of view of style, the designers approached in a new way. " +
+                " They placed a large brand logo on the back for a unique look.  There are cuffs for ease of use. " +
+                " After prolonged wear, the state of the print changes.",
             id: 13,
             brand: "OFF-WHITE",
-            color: "белый",
+            color: "white",
             category: "T-shirt",
             availableSizes: [46, 50, 52, 54]
         },
         {
-            name: "ФУТБОЛКА AAPE ",
-            price: 1320,
-            imgUrl: "https://хасл.рф/components/com_jshopping/files/img_products/7864/aape-7864-1.jpg",
+            name: "T-shirt AAPE",
+            price: 35,
+            imgUrl: "https://outmaxshop.ru/components/com_jshopping/files/img_products/19627/aape-19627-1.jpg",
             article: 312454125,
             isAvailable: true,
-            description: "Модная футболка от бренда Aape выполнена на 100% из хлопка. Это позволяет носить её на прогулках, фитнесе," +
-                " тренировках без дискомфорта. Модель приталенная с коротким рукавом. На груди расположен большой фирменный " +
-                "принт бренда в контрастном цвете. После нескольких стирок цвет и состояние принта не изменяется." +
-                " Также при долгом нахождении на солнце не выгорает.",
+            description: "The all-purpose T-shirt from Aape is made from 100% cotton.  The model is fitted, has a round neckline" +
+                " and short sleeves.  The comfortable fit provides maximum comfort during use.  The T-shirt is decorated" +
+                " with a large print in the chest area.  There is also an original print on the neck area.  It is made in" +
+                " a contrasting color.  The color and state do not change over time.  Perfect for both walking and fitness.",
             id: 14,
             brand: "AAPE",
-            color: "белый",
+            color: "white",
             category: "T-shirt",
             availableSizes: [46, 50, 52, 54]
         },
         {
-            name: "ХУДИ NASA ",
-            price: 2412,
-            imgUrl: "https://images.ru.prom.st/785630382_w640_h640_nasa-hudi-nasa.jpg",
+            name: "khudi NASA",
+            price: 74,
+            imgUrl: "https://outmaxshop.ru/components/com_jshopping/files/img_products/17901/nasa-17901-1.jpg",
             article: 312454125,
             isAvailable: true,
-            description: "Стильный худи Nasa черного цвета выполнен из трикотажной ткани. Модель является трендом нынешнего сезона" +
-                " и оснащена манжетами на рукавах и резинкой на поясе. У изделия классический несъемный капюшон и карман-кенгуру." +
-                " Отличный трикотаж обеспечит комфортный тепловой режим на каждый день. Идеально подойдет для прогулок, пробежек." +
-                " Изделие украшено контрастными принтами логотипа бренда: белым на груди, эмблемой-нашивкой – на рукаве. " +
-                "Декор толстовки продолжают шнурки регулировки капюшона в тон и манжеты с плотной резинкой на поясе.",
+            description: "Stylish black NASA hoodie sewn in a semi-loose silhouette.  Jersey\n" +
+                "on the three-thread looks elegant and will suit young people who understand a lot about fashion.\n" +
+                "The product will be a good help on cool evenings during the demi-season.\n" +
+                "It can also be worn under a dark bomber jacket.\n" +
+                "\n" +
+                "The product has a drawstring-adjustable hood, cuffs and a classic pass-through pocket.\n" +
+                "The model is decorated with the US national flag on the left sleeve.  Chest print\n" +
+                "in the form of the NASA emblem is the dominant design of the model.",
             id: 15,
             brand: "NASA",
-            color: "черный",
+            color: "black",
             category: "khudi",
             availableSizes: [46, 50, 52, 54]
-        },
+        }
     ] as TProducts,
     SearchResult: [] as TProducts ,
     FilterResult: [] as TProducts ,
